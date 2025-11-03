@@ -88,6 +88,7 @@ sequenceDiagram
     c1->>s: "chat.addLog"が呼び出された
     s->>c1: "chat.addLog"が呼び出された
     s->>c2: "chat.addLog"が呼び出された
+    s->>s: "chat.addLog"を保存
     c1->>c1: "chat.addLog"実行
     c2->>c2: "chat.addLog"実行
     c3->>s: 参加
